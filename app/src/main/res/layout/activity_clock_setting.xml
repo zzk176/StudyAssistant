@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="1dp"
+    android:background="@drawable/settingsbg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/item_unselect"
+        android:layout_margin="8dp"
+        android:paddingVertical="6dp"
+        android:paddingHorizontal="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight = "1"
+            android:text="数学题难度"
+            android:textColor="@color/colorWhite"
+            android:textSize="18dp" />
+        <Button
+            android:id="@+id/hard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="当前难度"
+            android:textSize="18dp"
+            android:textColor="#646464"
+            android:background="@color/colorNo"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/item_unselect"
+        android:layout_margin="8dp"
+        android:paddingVertical="6dp"
+        android:paddingHorizontal="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight = "1"
+            android:text="题量"
+            android:textColor="@color/colorWhite"
+            android:textSize="18dp" />
+        <Button
+            android:id="@+id/number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="当前题量"
+            android:textSize="18dp"
+            android:textColor="#646464"
+            android:background="@color/colorNo"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/item_unselect"
+        android:layout_margin="8dp"
+        android:paddingVertical="6dp"
+        android:paddingHorizontal="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight = "1"
+            android:text="拍照精度要求"
+            android:textColor="@color/colorWhite"
+            android:textSize="18dp" />
+        <Button
+            android:id="@+id/jingdu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="当前精度"
+            android:textSize="18dp"
+            android:textColor="#646464"
+            android:background="@color/colorNo"/>
+
+    </LinearLayout>
+
+</LinearLayout>
